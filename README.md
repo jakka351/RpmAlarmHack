@@ -1,27 +1,27 @@
-# RpmAlarmHack
+# `RpmAlarmHack`
 ***
-### ford fg mark 1
+### `ford fg mark 1`
 
- rpm shift alert hack
- this is a hack and not advisable to actually use on the road - be warned!
- this script will send altered data to the cluster in order to trigger the engine overspeed alarm so it can be used as a shift alert
- the speedo display will not appear to be affected, however it will receive approximately 1 second of replayed data at the set rpm threshold
- use at your own risk
- the shift alert needs to be enabled via module configuration
- be aware it will log a fault code everytime it goes off - the script will periodically clear the all fault codes in the PCM 
- this script assumes the mki fg falcon highspeed can interface is up on can0
- https://github.com/jakka351/FG-Falcon | https://github.com/jakka351/
-
- This is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation, either version 3 of the License, or
- (at your option) any later version.
-
- This is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
-
+ #### rpm shift alert hack  
+ this is a hack and not advisable to actually use on the road - be warned!    
+ this script will send altered data to the cluster in order to trigger the engine overspeed alarm so it can be used as a shift alert  
+ the speedo display will not appear to be affected, however it will receive approximately 1 second of replayed data at the set rpm threshold  
+ use at your own risk  
+ the shift alert needs to be enabled via module configuration  
+ be aware it will log a fault code everytime it goes off - the script will periodically clear the all fault codes in the PCM   
+ this script assumes the mki fg falcon highspeed can interface is up on can0  
+ https://github.com/jakka351/FG-Falcon | https://github.com/jakka351/  
+  
+ This is free software: you can redistribute it and/or modify  
+ it under the terms of the GNU General Public License as published by  
+ the Free Software Foundation, either version 3 of the License, or  
+ (at your option) any later version.  
+  
+ This is distributed in the hope that it will be useful,  
+ but WITHOUT ANY WARRANTY; without even the implied warranty of  
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  
+ GNU General Public License for more details.  
+  
 ```
 #!/usr/bin/python3
 
