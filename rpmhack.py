@@ -1,6 +1,7 @@
 # rpm shift alert hack
 # this is a hack and not advisable to actually use on the road - be warned!
 # this script will send altered data to the cluster in order to trigger the engine overspeed alarm so it can be used as a shift alert
+# the shift alert needs to be enabled via module configuration
 # be aware it will log a fault code everytime it goes off - the script will periodically clear the all fault codes in the PCM 
 # this script assumes the mki fg falcon highspeed can interface is up on can0
 # https://github.com/jakka351/FG-Falcon | https://github.com/jakka351/
